@@ -1,0 +1,144 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital,wght@0,300;0,500;1,900&display=swap');
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+
+.heading{
+    height: max-content;
+    width: max-content;
+}
+.wraper{
+    /* height: 100vh;
+    width: 100vw; */
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    flex-wrap:wrap;
+}
+.datawrap{
+    width: 90vw;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+.balancebox,.chartbox{
+    margin: 10px;
+    height: 250px;
+    width: 500px;
+    /* border: 2px solid black;
+    border-radius: 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.transactionbox{
+    margin: 10px;
+    max-height: none;
+    min-height: 450px;
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+}
+.incomelist,.expenselist{
+    min-height: 350px;
+    max-height: none;
+    width:400px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.form{
+    width: 360px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.formlabels{
+    margin: 10px;
+    display: flex;
+    width: 550px;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: row;
+}
+#inputtransactionname,#inputamount{
+    height: 40px;
+    width: 250px;
+    padding: 4px;
+}
+.addbutton{
+    height: 30px;
+    width: 200px;
+    border: 3px solid black;
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+.buttons{
+    /* height: 250px; */
+    width: 200px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-direction: row;
+}
+.deletelistitem{
+    height: 30px;
+    width: 40px;
+    background-color: white;
+    border: 2px solid whitesmoke;
+    margin: 2px;
+    border-radius: 5px;
+}
+.updatelistitem{
+    margin: 2px;
+
+    height: 30px;
+    width: 40px;
+    background-color: white;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+}
+.incomelistitem{
+    height: 50px;
+    width: 340px;
+    margin: 10px;
+    padding:7px;
+    border-radius: 5px;
+    border: 1px solid rgb(67, 195, 67);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgb(161, 245, 161);
+}
+.expenselistitem{
+    height: 50px;
+    width: 380px;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 7px ;
+    border: 1px solid rgb(220, 64, 64);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgb(245, 189, 161);
+}
